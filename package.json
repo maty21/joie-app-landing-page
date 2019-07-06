@@ -13,9 +13,7 @@
     "react": "^16.1.1",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.1.1",
-    "react-github-button": "^0.1.11"
-  },
-  "devDependencies": {
+    "react-github-button": "^0.1.11",
     "atool-build": "^1.0.2",
     "atool-test-mocha": "^0.1.7",
     "babel-eslint": "^8.0.2",
@@ -34,6 +32,7 @@
     "pre-commit": "^1.2.2",
     "redbox-react": "^1.5.0"
   },
+  "devDependencies": {},
   "pre-commit": [
     "lint"
   ],
