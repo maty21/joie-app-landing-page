@@ -40,7 +40,7 @@
     "build": "atool-build && cp index.html dist",
     "lint": "eslint --ext .js,.jsx src/",
     "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
-    "start": "dora -p 8090 --plugins webpack",
+    "start": "dora -p 8080 --plugins webpack",
     "test": "atool-test-mocha ./**/__tests__/*-test.js",
     "deploy": "rm -rf dist && npm run build && node ./deploy.js"
   }
